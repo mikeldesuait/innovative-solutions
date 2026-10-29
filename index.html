@@ -12,7 +12,6 @@
 <body>
     <header class="header" id="header">
         <div class="container header-container">
-            <!-- LOGO RESALTADO -->
             <a href="#" class="logo">
                 <div class="logo-icon">IS</div>
                 <div class="logo-text">
@@ -37,7 +36,6 @@
                     <button class="lang-btn" data-lang="fr">FR</button>
                 </div>
                 
-                <!-- MENÚ DESPLEGABLE DE URGENCIAS -->
                 <div class="urgency-menu">
                     <button class="btn btn-primary" id="urgency-btn" data-i18n="btn.urgency">📞 Urgencias 24/7</button>
                     <div class="urgency-dropdown hidden" id="urgency-dropdown">
@@ -51,7 +49,6 @@
         </div>
     </header>
 
-    <!-- HERO COMPACTO -->
     <section class="hero">
         <div class="container hero-content">
             <div class="hero-badges">
@@ -64,28 +61,46 @@
         </div>
     </section>
 
-    <!-- SERVICIOS -->
     <section class="services section" id="servicios">
         <div class="container">
             <h2 class="section-title" data-i18n="services.title">Nuestros Servicios</h2>
             <div class="grid">
+                <!-- Tarjeta Climatización (Split en pared) -->
                 <a href="climatizacion.html" class="card">
-                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?q=80&w=800&auto=format&fit=crop" alt="Aire Acondicionado Doméstico" class="card-img"></div>
-                    <div class="card-content"><h3 data-i18n="services.clima.title">Climatización</h3><p data-i18n="services.clima.desc">Instalación y mantenimiento de aire acondicionado para hogares y espacios comerciales. Máxima eficiencia energética.</p></div>
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=800&auto=format&fit=crop" alt="Split de Aire Acondicionado" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-i18n="services.clima.title">Climatización</h3>
+                        <p data-i18n="services.clima.desc">Instalación y mantenimiento de aire acondicionado para hogares y espacios comerciales. Máxima eficiencia energética.</p>
+                    </div>
                 </a>
+
+                <!-- Tarjeta Electricidad -->
                 <a href="electricidad.html" class="card">
-                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop" alt="Instalación Eléctrica" class="card-img"></div>
-                    <div class="card-content"><h3 data-i18n="services.elec.title">Electricidad</h3><p data-i18n="services.elec.desc">Boletines eléctricos, instalaciones y mantenimiento con técnicos altamente capacitados.</p></div>
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop" alt="Instalación Eléctrica" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-i18n="services.elec.title">Electricidad</h3>
+                        <p data-i18n="services.elec.desc">Boletines eléctricos, instalaciones y mantenimiento con técnicos altamente capacitados.</p>
+                    </div>
                 </a>
+
+                <!-- Tarjeta Placas Solares (Tejado de Casa) -->
                 <a href="placas-solares.html" class="card">
-                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1592833159155-c62df1b65634?q=80&w=800&auto=format&fit=crop" alt="Placas Solares en Casa" class="card-img"></div>
-                    <div class="card-content"><h3 data-i18n="services.solar.title">Placas Solares</h3><p data-i18n="services.solar.desc">Transición hacia energías renovables. Instalación de sistemas fotovoltaicos eficientes y sostenibles.</p></div>
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1592833159155-c62df1b65634?q=80&w=800&auto=format&fit=crop" alt="Placas Solares en Casa" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-i18n="services.solar.title">Placas Solares</h3>
+                        <p data-i18n="services.solar.desc">Transición hacia energías renovables. Instalación de sistemas fotovoltaicos eficientes y sostenibles.</p>
+                    </div>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- CONTACTO -->
     <section class="contact section" id="contacto">
         <div class="container contact-container">
             <div class="contact-info">
@@ -132,7 +147,6 @@
         </div>
     </footer>
 
-    <!-- BANNER DE COOKIES -->
     <div id="cookie-banner" class="cookie-banner hidden">
         <div class="cookie-content">
             <p><strong data-i18n="cookie.title">Respetamos tu privacidad.</strong> <span data-i18n="cookie.desc">Usamos cookies técnicas para recordar tu idioma. No usamos cookies de seguimiento ni publicidad.</span> <a href="politica-cookies.html" data-i18n="cookie.more">Más información</a>.</p>
