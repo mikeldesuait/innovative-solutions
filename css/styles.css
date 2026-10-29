@@ -177,3 +177,23 @@ ul { list-style: none; }
 /* Ajuste de legibilidad para Plus Jakarta Sans */
 body { line-height: 1.7; }
 .hero h1, .page-hero h1 { line-height: 1.15; }
+
+/* ==========================================================================
+   FIX PARA DESBORDAMIENTO HORIZONTAL EN MÓVILES
+   ========================================================================== */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img, .grid, .card, .hero, .page-hero, .copy-section, .container {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .urgency-dropdown {
+        right: auto;
+        left: 0;
+        width: 200px;
+    }
+}
