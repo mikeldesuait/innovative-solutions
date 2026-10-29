@@ -288,3 +288,35 @@ img, .grid, .card, .hero, .page-hero, .copy-section, .container {
         gap: 5px;
     }
 }
+
+/* ==========================================================================
+   FIX DEFINITIVO PARA MÓVIL (TODO EN UNA LÍNEA)
+   ========================================================================== */
+@media (max-width: 767px) {
+    /* 1. Ocultar el logo de texto en móvil (dejamos solo el icono IS) */
+    .logo-text {
+        display: none; 
+    }
+    
+    /* 2. El icono IS un poco más grande para que destaque */
+    .logo-icon {
+        font-size: 1.2rem;
+        padding: 8px 10px;
+    }
+
+    /* 3. Ajustar el botón de Urgencias para que no se salga */
+    .header-actions .btn-primary {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        white-space: nowrap; /* Evita que el texto se rompa en dos líneas */
+    }
+
+    /* 4. Opcional: Si aún así no cabe, cambiamos el texto por solo el icono */
+    .header-actions .btn-primary {
+        font-size: 0; /* Ocultamos el texto temporalmente */
+    }
+    .header-actions .btn-primary::before {
+        content: "📞"; /* Mostramos solo el teléfono */
+        font-size: 1.2rem; /* Tamaño del icono */
+    }
+}
