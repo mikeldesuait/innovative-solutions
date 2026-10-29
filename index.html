@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Solutions | Climatización, Electricidad y Placas Solares</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-container">
+            <!-- LOGO RESALTADO -->
+            <a href="#" class="logo">
+                <div class="logo-icon">IS</div>
+                <div class="logo-text">
+                    <span class="logo-title">INNOVATIVE</span>
+                    <span class="logo-subtitle">SOLUTIONS</span>
+                </div>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="climatizacion.html" class="nav-link" data-i18n="nav.clima">Climatización</a></li>
+                    <li><a href="electricidad.html" class="nav-link" data-i18n="nav.elec">Electricidad</a></li>
+                    <li><a href="placas-solares.html" class="nav-link" data-i18n="nav.solar">Placas Solares</a></li>
+                    <li><a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <div class="lang-selector">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                </div>
+                
+                <!-- MENÚ DESPLEGABLE DE URGENCIAS -->
+                <div class="urgency-menu">
+                    <button class="btn btn-primary" id="urgency-btn" data-i18n="btn.urgency">📞 Urgencias 24/7</button>
+                    <div class="urgency-dropdown hidden" id="urgency-dropdown">
+                        <a href="tel:+34622679450" class="urgency-item">📞 <span data-i18n="urgency.call">Llamar ahora</span></a>
+                        <a href="https://wa.me/34622679450?text=Hola,%20tengo%20una%20urgencia%20y%20necesito%20ayuda." target="_blank" class="urgency-item">💬 <span data-i18n="urgency.wa">Enviar WhatsApp</span></a>
+                    </div>
+                </div>
+                
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO COMPACTO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-badges">
+                <span class="badge" data-i18n="hero.badge1">✓ Instaladores Autorizados</span>
+                <span class="badge" data-i18n="hero.badge2">✓ Presupuesto en 48h</span>
+            </div>
+            <h1 data-i18n="hero.title">Energía y confort<br>con <span class="text-primary">visión de futuro.</span></h1>
+            <p data-i18n="hero.subtitle">Especialistas en climatización eficiente, instalaciones eléctricas y transición a energías renovables. Calidad garantizada y máxima seguridad.</p>
+            <a href="#contacto" class="btn btn-large" data-i18n="hero.cta">Solicitar Presupuesto</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="services section" id="servicios">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services.title">Nuestros Servicios</h2>
+            <div class="grid">
+                <a href="climatizacion.html" class="card">
+                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?q=80&w=800&auto=format&fit=crop" alt="Aire Acondicionado Doméstico" class="card-img"></div>
+                    <div class="card-content"><h3 data-i18n="services.clima.title">Climatización</h3><p data-i18n="services.clima.desc">Instalación y mantenimiento de aire acondicionado para hogares y espacios comerciales. Máxima eficiencia energética.</p></div>
+                </a>
+                <a href="electricidad.html" class="card">
+                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop" alt="Instalación Eléctrica" class="card-img"></div>
+                    <div class="card-content"><h3 data-i18n="services.elec.title">Electricidad</h3><p data-i18n="services.elec.desc">Boletines eléctricos, instalaciones y mantenimiento con técnicos altamente capacitados.</p></div>
+                </a>
+                <a href="placas-solares.html" class="card">
+                    <div class="card-img-wrapper"><img src="https://images.unsplash.com/photo-1592833159155-c62df1b65634?q=80&w=800&auto=format&fit=crop" alt="Placas Solares en Casa" class="card-img"></div>
+                    <div class="card-content"><h3 data-i18n="services.solar.title">Placas Solares</h3><p data-i18n="services.solar.desc">Transición hacia energías renovables. Instalación de sistemas fotovoltaicos eficientes y sostenibles.</p></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact section" id="contacto">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title" data-i18n="contact.title">Hablemos de tu proyecto</h2>
+                <p class="contact-text" data-i18n="contact.subtitle">Recibe un presupuesto detallado en menos de 48 horas. Estamos disponibles para urgencias.</p>
+                <div class="contact-details">
+                    <p>📞 <strong data-i18n="contact.phone">Teléfono:</strong> <a href="tel:+34622679450">+34 622 67 94 50</a></p>
+                    <p>✉️ <strong data-i18n="contact.email">Email:</strong> <a href="mailto:info@innovativesolutions.es">info@innovativesolutions.es</a></p>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="form.name">Tu nombre</label>
+                    <input type="text" id="name" name="name" required data-i18n-placeholder="form.name.ph" placeholder="Ej. Juan Pérez">
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="form.email">Tu correo electrónico</label>
+                    <input type="email" id="email" name="email" required data-i18n-placeholder="form.email.ph" placeholder="juan@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="form.msg">¿Qué necesitas? (opcional)</label>
+                    <textarea id="message" name="message" rows="4" data-i18n-placeholder="form.msg.ph" placeholder="Cuéntanos brevemente..."></textarea>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy" data-i18n="form.privacy">He leído y acepto la <a href="politica-privacidad.html" target="_blank">Política de Privacidad</a>.</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block" id="submit-btn" data-i18n="form.submit">Enviar por WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-legal-links">
+                <a href="aviso-legal.html">Aviso Legal</a>
+                <a href="politica-privacidad.html">Privacidad</a>
+                <a href="politica-cookies.html">Cookies</a>
+            </div>
+            <p data-i18n="footer.copy">© 2026 Innovative Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BANNER DE COOKIES -->
+    <div id="cookie-banner" class="cookie-banner hidden">
+        <div class="cookie-content">
+            <p><strong data-i18n="cookie.title">Respetamos tu privacidad.</strong> <span data-i18n="cookie.desc">Usamos cookies técnicas para recordar tu idioma. No usamos cookies de seguimiento ni publicidad.</span> <a href="politica-cookies.html" data-i18n="cookie.more">Más información</a>.</p>
+            <div class="cookie-actions">
+                <button id="reject-cookies" class="btn btn-outline" data-i18n="cookie.reject">Rechazar</button>
+                <button id="accept-cookies" class="btn btn-primary" data-i18n="cookie.accept">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
