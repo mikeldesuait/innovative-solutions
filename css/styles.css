@@ -380,3 +380,109 @@ img, .grid, .card, .hero, .page-hero, .copy-section, .container {
         padding: 0 5px;
     }
 }
+
+/* ==========================================================================
+   FIX PARA PANTALLAS GRANDES (ORDENADOR / TABLET)
+   ========================================================================== */
+@media (min-width: 768px) {
+    /* 1. Recuperar el tamaño grande del header en ordenador */
+    .header-container {
+        height: 85px; /* Altura más cómoda */
+        padding: 0 5%;
+    }
+
+    /* 2. Logo grande y con más espacio */
+    .logo { gap: 15px; }
+    .logo-icon {
+        font-size: 1.6rem;
+        padding: 10px 14px;
+        border-bottom: 4px solid var(--dark);
+    }
+    .logo-title {
+        font-size: 1.3rem; /* Letra más grande */
+    }
+    .logo-subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 2.5px;
+    }
+    .logo-text {
+        display: flex; /* Aseguramos que el texto se vea */
+    }
+
+    /* 3. Botones de idioma más grandes y cómodos */
+    .lang-btn {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    /* 4. Botón de urgencias grande y con texto completo */
+    .header-actions .btn-primary {
+        padding: 12px 24px;
+        font-size: 1rem;
+        border-radius: 50px; /* Forma de píldora */
+    }
+    
+    /* Ocultamos el icono del teléfono que pusimos para el móvil y mostramos el texto */
+    .header-actions .btn-primary::before {
+        content: "📞 "; /* Solo dejamos el emoji del teléfono */
+        font-size: 1rem;
+    }
+
+    /* 5. Mostrar los enlaces del menú de navegación */
+    .nav {
+        display: block;
+    }
+    .menu-toggle {
+        display: none; /* Ocultamos las 3 rayitas en ordenador */
+    }
+}
+
+/* ==========================================================================
+   FIX MÓVIL FINAL (TODO VISIBLE)
+   ========================================================================== */
+@media (max-width: 767px) {
+    .header-container {
+        height: 70px;
+        padding: 0 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .logo { gap: 5px; }
+    .logo-text { display: flex; }
+    .logo-icon { font-size: 1rem; padding: 6px 8px; border-bottom: 2px solid var(--dark); }
+    .logo-title { font-size: 0.8rem; letter-spacing: 0; }
+    .logo-subtitle { font-size: 0.55rem; letter-spacing: 0.5px; }
+    .lang-selector { gap: 2px; padding: 2px; }
+    .lang-btn { padding: 4px 6px; font-size: 0.65rem; }
+    .header-actions { gap: 5px; }
+    .header-actions .btn-primary { padding: 6px 10px; font-size: 0.7rem; white-space: nowrap; border-radius: 8px; }
+    .header-actions .btn-primary::before { content: ""; }
+    .menu-toggle { display: block !important; font-size: 1.3rem; color: var(--dark); padding: 0 3px; }
+}
+
+/* ==========================================================================
+   LIMPIAR ICONO DEL BOTÓN DE URGENCIAS
+   ========================================================================== */
+/* En ordenador */
+.header-actions .btn-primary::before {
+    content: ""; /* No añadimos nada extra */
+}
+.header-actions .btn-primary {
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    border-radius: 50px;
+}
+
+/* En móvil */
+@media (max-width: 767px) {
+    .header-actions .btn-primary {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+        border-radius: 8px;
+    }
+    .header-actions .btn-primary::before {
+        content: ""; /* Tampoco añadimos nada en móvil */
+    }
+}
