@@ -56,11 +56,11 @@ ul { list-style: none; }
 
 /* MENÚ DESPLEGABLE URGENCIAS */
 .urgency-menu { position: relative; }
-.urgency-dropdown { position: absolute; top: 130%; right: 0; background: var(--white); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); min-width: 200px; overflow: hidden; display: flex; flex-direction: column; z-index: 2000; border: 1px solid #eee; }
-.urgency-dropdown.hidden { display: none; }
-.urgency-item { padding: 15px 20px; color: var(--dark); text-decoration: none; font-weight: 600; font-size: 0.9rem; border-bottom: 1px solid #f0f0f0; transition: background 0.3s; }
-.urgency-item:last-child { border-bottom: none; }
-.urgency-item:hover { background: var(--bg-light); color: var(--primary); }
+
+
+
+
+
 
 /* ==========================================================================
    HERO COMPACTO
@@ -191,11 +191,7 @@ img, .grid, .card, .hero, .page-hero, .copy-section, .container {
 }
 
 @media (max-width: 767px) {
-    .urgency-dropdown {
-        right: auto;
-        left: 0;
-        width: 200px;
-    }
+    
 }
 
 /* ==========================================================================
@@ -484,5 +480,75 @@ img, .grid, .card, .hero, .page-hero, .copy-section, .container {
     }
     .header-actions .btn-primary::before {
         content: ""; /* Tampoco añadimos nada en móvil */
+    }
+}
+
+/* Ajuste para 4 tarjetas */
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+@media (min-width: 768px) { .grid-4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid-4 { grid-template-columns: repeat(4, 1fr); } }
+
+
+
+/* ==========================================================================
+   MENÚ DESPLEGABLE URGENCIAS (VERSIÓN PROFESIONAL)
+   ========================================================================== */
+.urgency-menu { position: relative; }
+.urgency-dropdown {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.18), 0 0 0 1px rgba(0,0,0,0.04);
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    z-index: 2000;
+    border: 1px solid #eee;
+}
+.urgency-dropdown.hidden { display: none; }
+
+.urgency-note {
+    font-size: 0.9rem;
+    color: var(--gray-dark);
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 500;
+}
+
+.urgency-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    border: none;
+}
+.urgency-item:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(255,107,0,0.3);
+    color: var(--white);
+}
+
+@media (max-width: 767px) {
+    .urgency-dropdown {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 280px;
     }
 }
