@@ -320,3 +320,63 @@ img, .grid, .card, .hero, .page-hero, .copy-section, .container {
         font-size: 1.2rem; /* Tamaño del icono */
     }
 }
+
+/* ==========================================================================
+   FIX DEFINITIVO MÓVIL (EQUILIBRIO Y ESTÉTICA)
+   ========================================================================== */
+@media (max-width: 767px) {
+    /* 1. Cabecera compacta */
+    .header-container {
+        height: 65px;
+        padding: 0 10px;
+        gap: 5px;
+    }
+
+    /* 2. Recuperamos el texto del logo pero pequeño */
+    .logo-text {
+        display: flex;
+    }
+    .logo-icon {
+        font-size: 1rem;
+        padding: 5px 8px;
+    }
+    .logo-title {
+        font-size: 0.75rem;
+        letter-spacing: 0;
+    }
+    .logo-subtitle {
+        font-size: 0.55rem;
+        letter-spacing: 0.5px;
+    }
+
+    /* 3. Selector de idioma mini */
+    .lang-selector {
+        display: flex;
+        gap: 2px;
+        padding: 2px;
+    }
+    .lang-btn {
+        padding: 3px 5px;
+        font-size: 0.65rem;
+    }
+
+    /* 4. Botón de Urgencias (Solo icono, más pequeño) */
+    .header-actions .btn-primary {
+        padding: 6px 10px;
+        font-size: 0.75rem;
+        border-radius: 8px;
+    }
+    /* Si quieres que ponga "Urgencias" en vez de teléfono, descomenta la siguiente línea */
+    /* .header-actions .btn-primary::before { content: "Urgencias"; } */
+
+    /* 5. Asegurar que el botón de menú ☰ se vea siempre */
+    .header-actions {
+        gap: 8px; /* Un poco de espacio entre elementos */
+    }
+    .menu-toggle {
+        display: block !important; /* Forzamos que se vea */
+        font-size: 1.4rem;
+        color: var(--primary);
+        padding: 0 5px;
+    }
+}
