@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "cookie.title": "Respetamos tu privacidad.", "cookie.desc": "Usamos cookies técnicas.", "cookie.more": "Más información", "cookie.reject": "Rechazar", "cookie.accept": "Aceptar",
             "climate.hero.title": "Climatización Inteligente:<br>Tu confort, sin sorpresas.", "climate.hero.subtitle": "Diseñamos e instalamos sistemas de aire acondicionado que cuidan de tu familia y respetan tu factura de la luz.", "climate.hero.cta": "Quiero mi presupuesto en 48h", "climate.why.title": "Soluciones para cada espacio",
             "climate.home.title": "🏠 Para tu Hogar", "climate.home.desc": "Presupuestos que no llegan, instaladores que no son puntuales y facturas de luz que asustan. En <strong>Innovative Solutions</strong> hemos eliminado toda esa fricción.", "climate.home.list1": "Presupuesto cerrado en menos de 48h.", "climate.home.list2": "Instalación limpia y en el día acordado.", "climate.home.list3": "Equipos de máxima eficiencia (A+++).",
-            "climate.business.title": "🍽️ Para Bares y Empresas", "climate.business.desc": "En la hostelería, un equipo que falla es dinero que pierdes. Instalamos y mantenemos sistemas de climatización de gran potencia y <strong>extractores de cocina</strong> que cumplen con la normativa.", "climate.business.list1": "Campanas extractoras y ventilación de cocinas.", "climate.business.list2": "Climatización para salones de gran capacidad.", "climate.business.list3": "Mantenimiento preventivo para evitar cierres.",
+            "climate.business.title": "🍽️ Para Bares y Empresas", "climate.business.desc": "En la hostelería, un equipo que falla es dinero que pierdes. Instalamos y mantenemos sistemas de climatización de gran potencia para que tus clientes estén siempre a gusto, sin importar el calor que haga fuera.", "climate.business.list1": "Climatización para salones y comedores.", "climate.business.list2": "Climatización para salones de gran capacidad.", "climate.business.list3": "Mantenimiento preventivo para evitar cierres.",
             "elec.hero.title": "Electricidad Segura.<br>Cero preocupaciones.", "elec.hero.subtitle": "Tu hogar o negocio merece una instalación que cumpla la normativa y soporte la tecnología actual.", "elec.hero.cta": "Solicitar revisión eléctrica", "elec.why.title": "Soluciones para cada espacio",
             "elec.home.title": "🏠 Para tu Hogar", "elec.home.desc": "Para alquilar, vender o simplemente asegurar tu vivienda, necesitas un certificado oficial. No arriesgues con improvisadores. Realizamos la inspección y emitimos tu boletín.", "elec.home.list1": "Tramitación oficial ante Industria.", "elec.home.list2": "Revisión completa de la instalación.", "elec.home.list3": "Mejoras de seguridad incluidas.",
             "elec.business.title": "🏢 Para Empresas y Locales", "elec.business.desc": "Tu negocio no puede permitirse un corte de luz. Adaptamos y modernizamos la instalación eléctrica de tu local comercial o nave industrial, preparándola para la maquinaria actual.", "elec.business.list1": "Cuadros eléctricos industriales.", "elec.business.list2": "Instalación de maquinaria y fuerza.", "elec.business.list3": "Mantenimiento eléctrico de locales.",
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "cookie.title": "We respect your privacy.", "cookie.desc": "We use technical cookies.", "cookie.more": "More information", "cookie.reject": "Reject", "cookie.accept": "Accept",
             "climate.hero.title": "Smart Air Conditioning:<br>Your comfort, no surprises.", "climate.hero.subtitle": "We design and install air conditioning systems that take care of your family and respect your electricity bill.", "climate.hero.cta": "I want my quote in 48h", "climate.why.title": "Solutions for every space",
             "climate.home.title": "🏠 For your Home", "climate.home.desc": "Quotes that never arrive, installers who are late and scary electricity bills. At <strong>Innovative Solutions</strong> we have removed all that friction.", "climate.home.list1": "Fixed quote in less than 48h.", "climate.home.list2": "Clean installation on the agreed day.", "climate.home.list3": "Maximum efficiency equipment (A+++).",
-            "climate.business.title": "🍽️ For Bars and Businesses", "climate.business.desc": "In hospitality, a failing unit is money you lose. We install and maintain high-power air conditioning systems and <strong>industrial kitchen extractors</strong> that comply with hygiene and safety regulations.", "climate.business.list1": "Extractor hoods and kitchen ventilation.", "climate.business.list2": "Air conditioning for large dining rooms.", "climate.business.list3": "Preventive maintenance to avoid closures.",
+            "climate.business.title": "🍽️ For Bars and Businesses", "climate.business.desc": "In hospitality, a failing unit is money you lose. We install and maintain high-power air conditioning systems so your customers are always comfortable, no matter how hot it is outside.", "climate.business.list1": "Air conditioning for dining rooms.", "climate.business.list2": "Air conditioning for large dining rooms.", "climate.business.list3": "Preventive maintenance to avoid closures.",
             "elec.hero.title": "Safe Electricity.<br>Zero worries.", "elec.hero.subtitle": "Your home or business deserves an installation that complies with regulations and supports current technology.", "elec.hero.cta": "Request electrical inspection", "elec.why.title": "Solutions for every space",
             "elec.home.title": "🏠 For your Home", "elec.home.desc": "To rent, sell or simply secure your home, you need an official certificate. Don't risk it with improvisors. We carry out the inspection and issue your certificate.", "elec.home.list1": "Official processing with Industry.", "elec.home.list2": "Full inspection of the installation.", "elec.home.list3": "Safety improvements included.",
             "elec.business.title": "🏢 For Companies and Premises", "elec.business.desc": "Your business cannot afford a power cut. We adapt and modernize the electrical installation of your commercial premises or industrial warehouse, preparing it for current machinery.", "elec.business.list1": "Industrial electrical panels.", "elec.business.list2": "Machinery and power installation.", "elec.business.list3": "Electrical maintenance of premises.",
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "cookie.title": "Nous respectons votre vie privée.", "cookie.desc": "Nous utilisons des cookies techniques.", "cookie.more": "Plus d'informations", "cookie.reject": "Refuser", "cookie.accept": "Accepter",
             "climate.hero.title": "Climatisation Intelligente:<br>Votre confort, sans surprises.", "climate.hero.subtitle": "Nous concevons et installons des systèmes de climatisation qui prennent soin de votre famille et respectent votre facture d'électricité.", "climate.hero.cta": "Je veux mon devis en 48h", "climate.why.title": "Solutions pour chaque espace",
             "climate.home.title": "🏠 Pour votre Maison", "climate.home.desc": "Des devis qui n'arrivent jamais, des installateurs en retard et des factures d'électricité qui font peur. Chez <strong>Innovative Solutions</strong> nous avons éliminé toute cette friction.", "climate.home.list1": "Devis ferme en moins de 48h.", "climate.home.list2": "Installation propre le jour convenu.", "climate.home.list3": "Équipements à efficacité maximale (A+++).",
-            "climate.business.title": "🍽️ Pour Bars et Entreprises", "climate.business.desc": "Dans l'hôtellerie, un équipement en panne c'est de l'argent perdu. Nous installons et entretenons des systèmes de climatisation de grande puissance et des <strong>extracteurs de cuisine industriels</strong> conformes à la réglementation.", "climate.business.list1": "Hottes aspirantes et ventilation de cuisines.", "climate.business.list2": "Climatisation pour salles de grande capacité.", "climate.business.list3": "Maintenance préventive pour éviter les fermetures.",
+            "climate.business.title": "🍽️ Pour Bars et Entreprises", "climate.business.desc": "Dans l'hôtellerie, un équipement en panne c'est de l'argent perdu. Nous installons et entretenons des systèmes de climatisation de grande puissance pour que vos clients soient toujours à l'aise, quelle que soit la chaleur dehors.", "climate.business.list1": "Climatisation pour salles et réfectoires.", "climate.business.list2": "Climatisation pour salles de grande capacité.", "climate.business.list3": "Maintenance préventive pour éviter les fermetures.",
             "elec.hero.title": "Électricité Sûre.<br>Zéro soucis.", "elec.hero.subtitle": "Votre maison ou entreprise mérite une installation conforme à la réglementation et adaptée à la technologie actuelle.", "elec.hero.cta": "Demander une révision électrique", "elec.why.title": "Solutions pour chaque espace",
             "elec.home.title": "🏠 Pour votre Maison", "elec.home.desc": "Pour louer, vendre ou simplement sécuriser votre logement, vous avez besoin d'un certificat officiel. Ne prenez pas de risques. Nous réalisons l'inspection et délivrons votre certificat.", "elec.home.list1": "Traitement officiel auprès de l'Industrie.", "elec.home.list2": "Révision complète de l'installation.", "elec.home.list3": "Améliorations de sécurité incluses.",
             "elec.business.title": "🏢 Pour Entreprises et Locaux", "elec.business.desc": "Votre entreprise ne peut pas se permettre une coupure de courant. Nous adaptons et modernisons l'installation électrique de votre local commercial ou entrepôt industriel.", "elec.business.list1": "Tableaux électriques industriels.", "elec.business.list2": "Installation de machines et force.", "elec.business.list3": "Maintenance électrique des locaux.",
@@ -128,6 +128,40 @@ document.addEventListener('DOMContentLoaded', () => {
         const reject = document.getElementById('reject-cookies');
         if (accept) accept.addEventListener('click', () => { localStorage.setItem('cookies', 'accepted'); cookieBanner.classList.add('hidden'); });
         if (reject) reject.addEventListener('click', () => { localStorage.setItem('cookies', 'rejected'); cookieBanner.classList.add('hidden'); });
+    }
+
+    // Pre-rellenar formulario según el servicio desde la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const servicio = urlParams.get('servicio');
+    const messageField = document.getElementById('message');
+    
+    if (servicio && messageField) {
+        const textos = {
+            'es': {
+                'climatizacion': 'Hola, me gustaría solicitar un presupuesto para Climatización.',
+                'electricidad': 'Hola, me gustaría solicitar un presupuesto para Electricidad.',
+                'placas-solares': 'Hola, me gustaría solicitar un presupuesto para Placas Solares.',
+                'extractores': 'Hola, me gustaría solicitar un presupuesto para Extractores de Humos.'
+            },
+            'en': {
+                'climatizacion': 'Hello, I would like to request a quote for Air Conditioning.',
+                'electricidad': 'Hello, I would like to request a quote for Electricity.',
+                'placas-solares': 'Hello, I would like to request a quote for Solar Panels.',
+                'extractores': 'Hello, I would like to request a quote for Smoke Extractors.'
+            },
+            'fr': {
+                'climatizacion': 'Bonjour, je souhaiterais demander un devis pour la Climatisation.',
+                'electricidad': 'Bonjour, je souhaiterais demander un devis pour l\'Électricité.',
+                'placas-solares': 'Bonjour, je souhaiterais demander un devis pour les Panneaux Solaires.',
+                'extractores': 'Bonjour, je souhaiterais demander un devis pour les Extracteurs de Fumées.'
+            }
+        };
+        
+        // Usamos el idioma actual que ya detecta la web, o español por defecto
+        const currentLang = localStorage.getItem('lang') || 'es';
+        if (textos[currentLang] && textos[currentLang][servicio]) {
+            messageField.value = textos[currentLang][servicio];
+        }
     }
 
     const form = document.getElementById('contact-form');
